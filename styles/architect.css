@@ -145,6 +145,47 @@ main>section{
     margin-bottom: 1.3em;
 }
 
+/* -----------features apu ------------- */
+#features-apu-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+
+.feature-card .feature-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.feature-card{
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+}
+
+.features-apu{
+    gap: 140px;
+}
+#experience-badge{
+    padding: 45px 42px;
+    font-size: 1.5rem;
+    font-weight: 500px;
+    margin-left: -100px;
+    margin-top: -100px;
+}
+
+#exprience-year{
+    font-size: 4rem;
+    font-size: 700;
+}
+
+.feature-architect img{
+    width: 100%;
+}
+
+
 
 
 
@@ -196,6 +237,9 @@ main>section{
     margin: 50px auto;
     text-align: center;
 }
+.sponsor-title{
+    margin-bottom: 1.5rem;
+}
 .sponsor-companies{
     display: grid;
     grid-template-columns: repeat(5,1fr);
@@ -204,10 +248,23 @@ main>section{
     filter: grayscale(100%);
 }
 
+
+/* ------------footer section------------- */
+.footer-description{
+    background-color: #FFF4E7;
+    height: 100px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:130px;
+    margin-bottom: 200px;
+}
+
 /*---------- responsive media query -----------*/
 
 @media screen and (max-width:576px) {
-    .navbar , .nav-links , .feature{
+    .navbar , .nav-links , .feature , .features-apu{
         flex-direction: column;
     }
     .feature-team, .fact-container, .sponsor-companies{
@@ -229,14 +286,19 @@ main>section{
         margin: 20px;
         width: auto;
     }
+    #experience-badge{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
 }
 
 @media screen and (min-width:576px) and (max-width:992px){
-    .navbar , .nav-links, .feature{
+    .navbar , .nav-links, .feature ,.features-apu{
         flex-direction: column;
     }
-    .feature-team{
-
+    #experience-badge{
+        margin-top: 20px;
+        margin-left: 20px;
     }
     .sponsor-companies,.fact-container{
         justify-items: center;
