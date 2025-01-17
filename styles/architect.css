@@ -241,13 +241,14 @@ main>section{
     margin-bottom: 1.5rem;
 }
 .sponsor-companies{
+    
+    margin-left: 100px;
     display: grid;
     grid-template-columns: repeat(5,1fr);
 }
 .sponsor-companies img{
     filter: grayscale(100%);
 }
-
 
 /* ------------footer section------------- */
 .footer-description{
